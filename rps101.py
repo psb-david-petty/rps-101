@@ -128,7 +128,7 @@ def key_in_string(s, key, keys=set()):
     return result
 
 def main(args):
-    """Parse ./rps-101-full.txt and write out ./RPS101.java."""
+    """Parse ./rps-101-full.txt and write out ./src/RPS101.java."""
     key_regex = re.compile(r'\d+ - (.+)')
     format = lambda s: re.sub(r'#.*', '', s).strip()
 
@@ -192,7 +192,7 @@ def main(args):
     java = javaf[1: ].format(us='us', them='them',
                              switch=textwrap.indent(switch, '        ')[: -1])
 
-    with open('./RPS101.java', 'w') as code:
+    with open('./src/RPS101.java', 'w') as code:
         code.write(java)
     return java
 

@@ -1,4 +1,4 @@
-/** RPS is a class that simulates the Rock / Paper / Scissors Lizzard Spock game.
+/** RPSLS is a class that simulates the Rock / Paper / Scissors Lizzard Spock game.
  * https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock
  */
 public class RPSLS {
