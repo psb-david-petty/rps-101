@@ -1,6 +1,6 @@
 # [RPS-101](https://www.umop.com/rps.htm)
 
-To create a [Java](https://www.oracle.com/java/technologies/downloads/)-based RPS-101 game (as described by [David C. Lovelace](https://umop.com/)) using a `switch` statement in `RPS101.java`, the [`rps101.py`](https://github.com/psb-david-petty/rps-101/blob/main/rps101.py) [Python](https://docs.python.org/3/) script parses all [outcomes](https://www.umop.com/rps101/alloutcomes.htm) text to create a mapping between the 101 keys and the 50 keys that each key beats.
+To create a [Java](https://www.oracle.com/java/technologies/downloads/)-based RPS-101 game (as described by [David C. Lovelace](https://umop.com/)) using a `switch` statement in [`RPS101.java`](https://github.com/psb-david-petty/rps-101/blob/main/src/RPS101.java), the [`rps101.py`](https://github.com/psb-david-petty/rps-101/blob/main/rps101.py) [Python](https://docs.python.org/3/) script parses all [outcomes](https://www.umop.com/rps101/alloutcomes.htm) text to create a mapping between the 101 keys and the 50 keys that each key beats.
 
 The `Move101` `enum` as parsed from all [outcomes](https://www.umop.com/rps101/alloutcomes.htm) can be declared:
 
