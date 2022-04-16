@@ -36,3 +36,7 @@ When parsed in this manner, only one key should be parsed per line.
 
 - One specific approach to creating the 101 cases is to use the [RPS-101](https://www.umop.com/rps.htm) order and, for each case, pick the next 50 (modulo 101) as losers and the previous 50 (modulo 101) as winners, without doing any parsing.
 - The [`rps101.py`](./rps101.py) [Python](https://docs.python.org/3/) script parses all [outcomes](https://www.umop.com/rps101/alloutcomes.htm) text as copy-pasted [here](./rps-101-full.txt) by (esentially) looking for the single matching key variants on each line. However, *all* [outcomes](https://www.umop.com/rps101/alloutcomes.htm) in the HTML include links to the cases, so any that are *not* the last key variants on every line can be specifically verified by looking at the links.
+
+<hr>
+
+[&#128279; permalink](https://psb-david-petty.github.io/rps-101/) and [&#128297; repository](https://github.com/psb-david-petty/rps-101/) for this page.
