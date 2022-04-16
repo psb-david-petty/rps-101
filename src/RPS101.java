@@ -22,7 +22,7 @@ public class RPS101 {
         System.out.printf("%s:%s ", name, move);
         return move;
     }
- 
+
     /** Call randomMove() for this and competitor then invoke
      * win(), lose(), and tie() appropriately for us.
      * @param competitor RPS101 competitor
